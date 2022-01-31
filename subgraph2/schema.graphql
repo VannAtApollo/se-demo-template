@@ -1,0 +1,44 @@
+# You must include this definition in any schema with tags!
+directive @tag(name: String!) repeatable on
+  | FIELD_DEFINITION
+  | INTERFACE
+  | OBJECT
+  | UNION
+
+" A book (work of literature)."
+type Book @key(fields: "title") @key(fields: "author")  {
+    " The title of the book. "
+    title: String
+    " The author of the book. " 
+    author: String 
+    " Who published the book. "
+    publisher: String 
+    " The publication date. "
+    published_date: String @tag(name: "mobile-api")
+    " The ISBN for a book. "
+    isbn: String @tag(name: "internal") 
+}
+
+extend type Author @key(fields: "name")  {
+    name: String! @external
+    " The books by an author. "
+    books: [Book] 
+}
+
+# The "Query" type is special: it lists all of the available queries that
+# clients can execute, along with the return type for each. In this
+# case, the "books" query returns an array of zero or more Books (defined above).
+type Query  {
+    " Get a list of books. "
+    books: [Book] 
+}
+
+type Mutation {
+    " Create a new review for a book. "
+    addReview(bookTitle: String!, review: String!, rating: Int!): Boolean! @tag(name: "internal")
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+subgraphs:
+  subgraph1:
+    routing_url: http://subgraph1:3200
+    schema:
+      file: ./subgraph1/schema.graphql
+  subgraph2:
+    routing_url: http://subgraph2:3200
+    schema:
+      file: ./subgraph2/schema.graphql
+  subgraph3:
+    routing_url: http://subgraph3:3200
+    schema:
+      file: ./subgraph3/schema.graphql

@@ -1,0 +1,914 @@
+[
+    {
+        "title": "Spinning Silver",
+        "author": "Naomi Novik",
+        "published_date": "10 July 2018",
+        "isbn": "9780399180989"
+    },
+    {
+        "title": "The Calculating Stars",
+        "author": "Mary Robinette Kowal",
+        "published_date": "3 July 2018",
+        "isbn": "9780765378385"
+    },
+    {
+        "title": "The Stone Sky",
+        "author": "N. K. Jemisin",
+        "published_date": "15 August 2017",
+        "isbn": "9780316229241"
+    },
+    {
+        "title": "The Collapsing Empire",
+        "author": "John Scalzi",
+        "published_date": "21 March 2017",
+        "isbn": "9781543613988"
+    },
+    {
+        "title": "The Obelisk Gate",
+        "author": "N. K. Jemisin",
+        "published_date": "16 August 2016",
+        "isbn": "9780316229265"
+    },
+    {
+        "title": "All the Birds in the Sky",
+        "author": "Charlie Jane Anders",
+        "published_date": "26 January 2016",
+        "isbn": "9780765379955"
+    },
+    {
+        "title": "Ancillary Mercy",
+        "author": "Ann Leckie",
+        "published_date": "6 October 2015",
+        "isbn": "9780316246682"
+    },
+    {
+        "title": "The Fifth Season",
+        "author": "N. K. Jemisin",
+        "published_date": "4 August 2015",
+        "isbn": "9780316229296"
+    },
+    {
+        "title": "Uprooted",
+        "author": "Naomi Novik",
+        "published_date": "2015",
+        "isbn": "9780804179058"
+    },
+    {
+        "title": "Ancillary Sword",
+        "author": "Ann Leckie",
+        "published_date": "7 October 2014",
+        "isbn": "9780316246651"
+    },
+    {
+        "title": "Annihilation",
+        "author": "Jeff VanderMeer",
+        "published_date": "1 February 2014",
+        "isbn": "9780374104092"
+    },
+    {
+        "title": "The Goblin Emperor",
+        "author": "Katherine Addison",
+        "published_date": "2014",
+        "isbn": "9780765326997"
+    },
+    {
+        "title": "Ancillary Justice",
+        "author": "Ann Leckie",
+        "published_date": "1 October 2013",
+        "isbn": "9780316246620"
+    },
+    {
+        "title": "The Ocean at the End of the Lane",
+        "author": "Neil Gaiman",
+        "published_date": "18 June 2013",
+        "isbn": "9780062459367"
+    },
+    {
+        "title": "Abaddon's Gate",
+        "author": "James S. A. Corey",
+        "published_date": "4 June 2013",
+        "isbn": "9780316129077"
+    },
+    {
+        "title": "The Apocalypse Codex",
+        "author": "Charles Stross",
+        "published_date": "1 July 2012",
+        "isbn": "9780425256435"
+    },
+    {
+        "title": "Redshirts",
+        "author": "John Scalzi",
+        "published_date": "5 June 2012",
+        "isbn": "9781491514382"
+    },
+    {
+        "title": "2312",
+        "author": "Kim Stanley Robinson",
+        "published_date": "23 May 2012",
+        "isbn": "9780316098113"
+    },
+    {
+        "title": "A Dance with Dragons",
+        "author": "George R. R. Martin",
+        "published_date": "12 July 2011",
+        "isbn": "9780553582017"
+    },
+    {
+        "title": "Embassytown",
+        "author": "China Mi\u00e9ville",
+        "published_date": "28 April 2011",
+        "isbn": "9780345524508"
+    },
+    {
+        "title": "Among Others",
+        "author": "Jo Walton",
+        "published_date": "18 January 2011",
+        "isbn": "9780765331724"
+    },
+    {
+        "title": "Kraken",
+        "author": "China Mi\u00e9ville",
+        "published_date": "7 May 2010",
+        "isbn": "9780345497505"
+    },
+    {
+        "title": "Blackout/All Clear",
+        "author": "Connie Willis",
+        "published_date": "2 February 2010",
+        "isbn": "9780553807677"
+    },
+    {
+        "title": "Death's End",
+        "author": "Cixin Liu",
+        "published_date": "2010",
+        "isbn": "9780765377104"
+    },
+    {
+        "title": "The Windup Girl",
+        "author": "Paolo Bacigalupi",
+        "published_date": "1 September 2009",
+        "isbn": "9781597801584"
+    },
+    {
+        "title": "The City & the City",
+        "author": "China Mi\u00e9ville",
+        "published_date": "15 May 2009",
+        "isbn": "9780345497529"
+    },
+    {
+        "title": "Boneshaker",
+        "author": "Cherie Priest",
+        "published_date": "2009",
+        "isbn": "9780765318411"
+    },
+    {
+        "title": "The Graveyard Book",
+        "author": "Neil Gaiman",
+        "published_date": "30 September 2008",
+        "isbn": "9780060530945"
+    },
+    {
+        "title": "Anathem",
+        "author": "Neal Stephenson",
+        "published_date": "9 September 2008",
+        "isbn": "9780061474101"
+    },
+    {
+        "title": "Lavinia",
+        "author": "Ursula K. Le Guin",
+        "published_date": "21 April 2008",
+        "isbn": "9788445077351"
+    },
+    {
+        "title": "The Three-Body problem",
+        "author": "Cixin Liu",
+        "published_date": "2008",
+        "isbn": "9780765382030"
+    },
+    {
+        "title": "The Yiddish Policemen's Union",
+        "author": "Michael Chabon",
+        "published_date": "1 May 2007",
+        "isbn": "9780007149834"
+    },
+    {
+        "title": "Making Money",
+        "author": "Terry Pratchett",
+        "published_date": "2007",
+        "isbn": "9780062334992"
+    },
+    {
+        "title": "Powers",
+        "author": "Ursula K. Le Guin",
+        "published_date": "2007",
+        "isbn": "9780152066741"
+    },
+    {
+        "title": "Rainbows End",
+        "author": "Vernor Vinge",
+        "published_date": "May 16, 2006",
+        "isbn": "9780812536362"
+    },
+    {
+        "title": "The Privilege of the Sword",
+        "author": "Ellen Kushner",
+        "published_date": "2006",
+        "isbn": "9780553382686"
+    },
+    {
+        "title": "Anansi Boys",
+        "author": "Neil Gaiman",
+        "published_date": "20 September 2005",
+        "isbn": "9780062564337"
+    },
+    {
+        "title": "Accelerando",
+        "author": "Charles Stross",
+        "published_date": "5 July 2005",
+        "isbn": "9780441014156"
+    },
+    {
+        "title": "Spin",
+        "author": "Robert Charles Wilson",
+        "published_date": "2005",
+        "isbn": "9780765348258"
+    },
+    {
+        "title": "Seeker",
+        "author": "Jack McDevitt",
+        "published_date": "2005",
+        "isbn": "9780441013753"
+    },
+    {
+        "title": "The Baroque Cycle",
+        "author": "Neal Stephenson",
+        "published_date": "2003-2004",
+        "isbn": "9780060833169"
+    },
+    {
+        "title": "Jonathan Strange & Mr Norrell",
+        "author": "Susanna Clarke",
+        "published_date": "8 September 2004",
+        "isbn": "9780765356154"
+    },
+    {
+        "title": "Iron Council",
+        "author": "China Mi\u00e9ville",
+        "published_date": "2004",
+        "isbn": "9780345458421"
+    },
+    {
+        "title": "Camouflage",
+        "author": "Joe Haldeman",
+        "published_date": "2004",
+        "isbn": "9780441012527"
+    },
+    {
+        "title": "Paladin of Souls",
+        "author": "Lois McMaster Bujold",
+        "published_date": "23 September 2003",
+        "isbn": "9780380818617"
+    },
+    {
+        "title": "Ilium",
+        "author": "Dan Simmons",
+        "published_date": "2003",
+        "isbn": "9780380817924"
+    },
+    {
+        "title": "The Scar",
+        "author": "China Mi\u00e9ville",
+        "published_date": "June 2002",
+        "isbn": "9780345460011"
+    },
+    {
+        "title": "The Years of Rice and Salt",
+        "author": "Kim Stanley Robinson",
+        "published_date": "March 2002",
+        "isbn": "9780553109207"
+    },
+    {
+        "title": "Hominids",
+        "author": "Robert J. Sawyer",
+        "published_date": "2002",
+        "isbn": "9780765345004"
+    },
+    {
+        "title": "Speed of Dark",
+        "author": "Elizabeth Moon",
+        "published_date": "2002",
+        "isbn": "9780345447548"
+    },
+    {
+        "title": "American Gods",
+        "author": "Neil Gaiman",
+        "published_date": "19 June 2001",
+        "isbn": "9780062472106"
+    },
+    {
+        "title": "Passage",
+        "author": "Connie Willis",
+        "published_date": "2001",
+        "isbn": "9780553580518"
+    },
+    {
+        "title": "The Telling",
+        "author": "Ursula K. Le Guin",
+        "published_date": "2000",
+        "isbn": "9780151005673"
+    },
+    {
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J. K. Rowling",
+        "published_date": "8 July 2000",
+        "isbn": "9780439139601"
+    },
+    {
+        "title": "The Quantum Rose",
+        "author": "Catherine Asaro",
+        "published_date": "2000",
+        "isbn": "9780812568837"
+    },
+    {
+        "title": "A Storm of Swords",
+        "author": "George R. R. Martin",
+        "published_date": "2000",
+        "isbn": "9780553381702"
+    },
+    {
+        "title": "Darwin's Radio",
+        "author": "Greg Bear",
+        "published_date": "31 August 1999",
+        "isbn": "9780345435248"
+    },
+    {
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J. K. Rowling",
+        "published_date": "8 July 1999",
+        "isbn": "9780747542155"
+    },
+    {
+        "title": "Cryptonomicon",
+        "author": "Neal Stephenson",
+        "published_date": "1999",
+        "isbn": "9780060512804"
+    },
+    {
+        "title": "A Deepness in the Sky",
+        "author": "Vernor Vinge",
+        "published_date": "1999",
+        "isbn": "9780812536355"
+    },
+    {
+        "title": "A Clash of Kings",
+        "author": "George R. R. Martin",
+        "published_date": "1998",
+        "isbn": "9780553579901"
+    },
+    {
+        "title": "Parable of the Talents",
+        "author": "Octavia E. Butler",
+        "published_date": "1998",
+        "isbn": "9780446675789"
+    },
+    {
+        "title": "Earthquake Weather",
+        "author": "Tim Powers",
+        "published_date": "1997",
+        "isbn": "9780765318220"
+    },
+    {
+        "title": "The Rise of Endymion",
+        "author": "Dan Simmons",
+        "published_date": "1997",
+        "isbn": "9780553572988"
+    },
+    {
+        "title": "The Moon and the Sun",
+        "author": "Vonda McIntyre",
+        "published_date": "1997",
+        "isbn": "9781433254925"
+    },
+    {
+        "title": "To Say Nothing of the Dog",
+        "author": "Cornie WIllis",
+        "published_date": "1997",
+        "isbn": "9780553575385"
+    },
+    {
+        "title": "Forever Peace",
+        "author": "Joe Haldeman",
+        "published_date": "1997",
+        "isbn": "9780441005666"
+    },
+    {
+        "title": "A Game of Thrones",
+        "author": "George R. R. Martin",
+        "published_date": "1 August 1996",
+        "isbn": "9780553386790"
+    },
+    {
+        "title": "Blue Mars",
+        "author": "Kim Stanley Robinson",
+        "published_date": "1996",
+        "isbn": "9780553573350"
+    },
+    {
+        "title": "The Terminal Experiment",
+        "author": "Robert J. Sawyer",
+        "published_date": "May 1995",
+        "isbn": "9780441020805"
+    },
+    {
+        "title": "Alvin Journeyman",
+        "author": "Orson Scott Card",
+        "published_date": "1995",
+        "isbn": "9780312850531"
+    },
+    {
+        "title": "Slow River",
+        "author": "Nicola Griffith",
+        "published_date": "1995",
+        "isbn": "9780345395375"
+    },
+    {
+        "title": "The Diamond Age",
+        "author": "Neal Stephenson",
+        "published_date": "1995",
+        "isbn": "9780553096095"
+    },
+    {
+        "title": "Brittle Innings",
+        "author": "Michael Bishop",
+        "published_date": "1994",
+        "isbn": "9781933846316"
+    },
+    {
+        "title": "Mirror Dance",
+        "author": "Lois McMaster Bujold",
+        "published_date": "1994",
+        "isbn": "9780671876463"
+    },
+    {
+        "title": "Moving Mars",
+        "author": "Greg Bear",
+        "published_date": "1993",
+        "isbn": "9780812524802"
+    },
+    {
+        "title": "Green Mars",
+        "author": "Kim Stanley Robinson",
+        "published_date": "1993",
+        "isbn": "9780553572391"
+    },
+    {
+        "title": "The Innkeeper's Song",
+        "author": "Peter S. Beagle",
+        "published_date": "1993",
+        "isbn": "9780451454140"
+    },
+    {
+        "title": "Doomsday Book",
+        "author": "Connie Willis",
+        "published_date": "1992",
+        "isbn": "9780553562736"
+    },
+    {
+        "title": "Last Call",
+        "author": "Tim Powers",
+        "published_date": "1992",
+        "isbn": "9780062233271"
+    },
+    {
+        "title": "Red Mars",
+        "author": "Kim Stanley Robinson",
+        "published_date": "1992",
+        "isbn": "9780553560732"
+    },
+    {
+        "title": "A Fire Upon the Deep",
+        "author": "Vernor Vinge",
+        "published_date": "1993",
+        "isbn": "9780812515282"
+    },
+    {
+        "title": "Beauty",
+        "author": "Sheri S. Tepper",
+        "published_date": "1991",
+        "isbn": "9780553295276"
+    },
+    {
+        "title": "Stations of the Tide",
+        "author": "Michael Swanwick",
+        "published_date": "1991",
+        "isbn": "9780765327918"
+    },
+    {
+        "title": "Barrayar",
+        "author": "Lois McMaster Bujold",
+        "published_date": "1991",
+        "isbn": "9780671720834"
+    },
+    {
+        "title": "The Fall of Hyperion",
+        "author": "Dan Simmons",
+        "published_date": "March 1990",
+        "isbn": "9780553288209"
+    },
+    {
+        "title": "Tehanu",
+        "author": "Ursula K. Le Guin",
+        "published_date": "1990",
+        "isbn": "9780689845338"
+    },
+    {
+        "title": "The Vor Game",
+        "author": "Lois McMaster Bujold",
+        "published_date": "1990",
+        "isbn": "9781476782232"
+    },
+    {
+        "title": "Hyperion",
+        "author": "Dan Simmons",
+        "published_date": "1989",
+        "isbn": "9780553283686"
+    },
+    {
+        "title": "Prentice Alvin",
+        "author": "Orson Scott Card",
+        "published_date": "1989",
+        "isbn": "9780812502121"
+    },
+    {
+        "title": "Cyteen",
+        "author": "C.J. Cherryh",
+        "published_date": "May 1988",
+        "isbn": "9780446671279"
+    },
+    {
+        "title": "The Healer's War",
+        "author": "Elizabeth Ann Scarborough",
+        "published_date": "1989",
+        "isbn": "9781497636996"
+    },
+    {
+        "title": "Falling Free",
+        "author": "Lois McMaster Bujold",
+        "published_date": "April 1988",
+        "isbn": "9781416555469"
+    },
+    {
+        "title": "Red Prophet",
+        "author": "Orson Scott Card",
+        "published_date": "1988",
+        "isbn": "9780812524260"
+    },
+    {
+        "title": "The Uplift War",
+        "author": "David Brin",
+        "published_date": "1987",
+        "isbn": "9780553279719"
+    },
+    {
+        "title": "Seventh Son",
+        "author": "Orson Scott Card",
+        "published_date": "1987",
+        "isbn": "9780812533057"
+    },
+    {
+        "title": "The Falling Woman",
+        "author": "Pat Murphy",
+        "published_date": "1986",
+        "isbn": "9780312854065"
+    },
+    {
+        "title": "Speaker for the Dead",
+        "author": "Orson Scott Card",
+        "published_date": "March 1986",
+        "isbn": "9780812550757"
+    },
+    {
+        "title": "Soldier of the Mist",
+        "author": "Gene Wolfe",
+        "published_date": "October 1986",
+        "isbn": "9780708882252"
+    },
+    {
+        "title": "Trumps of Doom",
+        "author": "Roger Zelazny",
+        "published_date": "1 May 1985",
+        "isbn": "9780887330063"
+    },
+    {
+        "title": "Ender's Game",
+        "author": "Orson Scott Card",
+        "published_date": "15 January 1985",
+        "isbn": "9780812550702"
+    },
+    {
+        "title": "The Postman",
+        "author": "David Brin",
+        "published_date": "1985",
+        "isbn": "9798657514285"
+    },
+    {
+        "title": "Neuromancer",
+        "author": "William Gibson",
+        "published_date": "1 July 1984",
+        "isbn": "9780441012039"
+    },
+    {
+        "title": "The Integral Trees",
+        "author": "Larry Niven",
+        "published_date": "1984",
+        "isbn": "9780345312709"
+    },
+    {
+        "title": "Job: A Comedy of Justice",
+        "author": "Robert A. Heinlein",
+        "published_date": "1984",
+        "isbn": "9780345316509"
+    },
+    {
+        "title": "The Mists of Avalon",
+        "author": "Marion Zimmer Bradley",
+        "published_date": "January 1983",
+        "isbn": "9780345350497"
+    },
+    {
+        "title": "Startide Rising",
+        "author": "David Brin",
+        "published_date": "1983",
+        "isbn": "9780553274189"
+    },
+    {
+        "title": "The Sword of the Lictor",
+        "author": "Gene Wolfe",
+        "published_date": "1982",
+        "isbn": "9781522687832"
+    },
+    {
+        "title": "Foundation's Edge",
+        "author": "Isaac Asimov",
+        "published_date": "1982",
+        "isbn": "9780553293388"
+    },
+    {
+        "title": "No Enemy But Time",
+        "author": "Michael Bishop",
+        "published_date": "1982",
+        "isbn": "9780553281873"
+    },
+    {
+        "title": "Downbelow Station",
+        "author": "C. J. Cherryh",
+        "published_date": "1981",
+        "isbn": "9780756400590"
+    },
+    {
+        "title": "The Claw of the Conciliator",
+        "author": "Gene Wolfe",
+        "published_date": "1981",
+        "isbn": "9780671474256"
+    },
+    {
+        "title": "The Many-Colored Land",
+        "author": "Julian May",
+        "published_date": "1981",
+        "isbn": "9781433224096"
+    },
+    {
+        "title": "Timescape",
+        "author": "Gregory Benford",
+        "published_date": "1980",
+        "isbn": "9780553297096"
+    },
+    {
+        "title": "The Snow Queen",
+        "author": "Joan D. Vinge",
+        "published_date": "1980",
+        "isbn": "9780765381774"
+    },
+    {
+        "title": "Lord Valentine's Castle",
+        "author": "Robert Silverberg",
+        "published_date": "1980",
+        "isbn": "9780061054877"
+    },
+    {
+        "title": "Harpist in the Wind",
+        "author": "Patricia A. McKillip",
+        "published_date": "1979",
+        "isbn": "9780345324405"
+    },
+    {
+        "title": "Titan",
+        "author": "John Varley",
+        "published_date": "1979",
+        "isbn": "9780441813049"
+    },
+    {
+        "title": "The Fountains of Paradise",
+        "author": "Arthur C. Clarke",
+        "published_date": "1979",
+        "isbn": "9781480535596"
+    },
+    {
+        "title": "Dreamsnake",
+        "author": "Vonda McIntyre",
+        "published_date": "1978",
+        "isbn": "9781433254888"
+    },
+    {
+        "title": "The Silmarillion",
+        "author": "J. R. R. Tolkien",
+        "published_date": "15 September 1977",
+        "isbn": "9780345325815"
+    },
+    {
+        "title": "Gateway",
+        "author": "Frederik Pohl",
+        "published_date": "1977",
+        "isbn": "9780345475831"
+    },
+    {
+        "title": "Man Plus",
+        "author": "Frederik Pohl",
+        "published_date": "1976",
+        "isbn": "9780765321787"
+    },
+    {
+        "title": "Where Late the Sweet Birds Sang",
+        "author": "Kate Wilhelm",
+        "published_date": "1976",
+        "isbn": "9780312866150"
+    },
+    {
+        "title": "The Forever War",
+        "author": "Joe Haldeman",
+        "published_date": "1974",
+        "isbn": "9780312536633"
+    },
+    {
+        "title": "The Dispossessed",
+        "author": "Ursula K. Le Guin",
+        "published_date": "1974",
+        "isbn": "9780061054884"
+    },
+    {
+        "title": "Rendezvous with Rama",
+        "author": "Arthur C. Clarke",
+        "published_date": "1973",
+        "isbn": "9780553287899"
+    },
+    {
+        "title": "The Gods Themselves",
+        "author": "Isaac Asimov",
+        "published_date": "1972",
+        "isbn": "9780553288100"
+    },
+    {
+        "title": "To Your Scattered Bodies Go",
+        "author": "Philip Jos\u00e9 Farmer",
+        "published_date": "1972",
+        "isbn": "9780345419675"
+    },
+    {
+        "title": "A Time of Changes",
+        "author": "Robert Silverberg",
+        "published_date": "1971",
+        "isbn": "9780765322319"
+    },
+    {
+        "title": "Ringworld",
+        "author": "Larry Niven",
+        "published_date": "1970",
+        "isbn": "9780345333926"
+    },
+    {
+        "title": "The Left Hand of Darkness",
+        "author": "Ursula K. Le Guin",
+        "published_date": "1969",
+        "isbn": "9780441478125"
+    },
+    {
+        "title": "Rite of Passage",
+        "author": "Alexei Panshin",
+        "published_date": "1968",
+        "isbn": "9780978907822"
+    },
+    {
+        "title": "Stand on Zanzibar",
+        "author": "John Brunner",
+        "published_date": "1968",
+        "isbn": "9780765326782"
+    },
+    {
+        "title": "Lord of Light",
+        "author": "Roger Zelazny",
+        "published_date": "1967",
+        "isbn": "9780060567231"
+    },
+    {
+        "title": "The Einstein Intersection",
+        "author": "Samuel R. Delany",
+        "published_date": "1967",
+        "isbn": "9780819563361"
+    },
+    {
+        "title": "Flowers for Algernon",
+        "author": "Daniel Keyes",
+        "published_date": "March 1966",
+        "isbn": "9780156030083"
+    },
+    {
+        "title": "The Moon Is a Harsh Mistress",
+        "author": "Robert A. Heinlein",
+        "published_date": "1966",
+        "isbn": "9780440001355"
+    },
+    {
+        "title": "This Immortal",
+        "author": "Roger Zelazny",
+        "published_date": "1966",
+        "isbn": "9781596870741"
+    },
+    {
+        "title": "Babel-17",
+        "author": "Samuel R. Delany",
+        "published_date": "1966",
+        "isbn": "9780375706691"
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "published_date": "1 August 1965",
+        "isbn": "9780441172719"
+    },
+    {
+        "title": "The Wanderer",
+        "author": "Fritz Leiber",
+        "published_date": "1964",
+        "isbn": "9781497642201"
+    },
+    {
+        "title": "Way Station",
+        "author": "Clifford D. Simak",
+        "published_date": "1963",
+        "isbn": "9781504013215"
+    },
+    {
+        "title": "The Man in the High Castle",
+        "author": "Philip K. Dick",
+        "published_date": "October 1962",
+        "isbn": "9780547572482"
+    },
+    {
+        "title": "Stranger in a Strange Land",
+        "author": "Robert A. Heinlein",
+        "published_date": "1 June 1961",
+        "isbn": "9780441790340"
+    },
+    {
+        "title": "A Canticle for Leibowitz",
+        "author": "Walter M. Miller Jr.",
+        "published_date": "1959",
+        "isbn": "9780553273816"
+    },
+    {
+        "title": "Starship Troopers",
+        "author": "Robert A. Heinlein",
+        "published_date": "December 1959",
+        "isbn": "9780441783588"
+    },
+    {
+        "title": "A Case of Consciense",
+        "author": "James Blish",
+        "published_date": "1958",
+        "isbn": "9780345438355"
+    },
+    {
+        "title": "The Big Time",
+        "author": "Fritz Leiber",
+        "published_date": "1958",
+        "isbn": "9780899685373"
+    },
+    {
+        "title": "Double Star",
+        "author": "Robert A. Heinlein",
+        "published_date": "1956",
+        "isbn": "9780345330130"
+    },
+    {
+        "title": "They'd Rather Be Right",
+        "author": "Mark Clifton & Frank Riley",
+        "published_date": "1954",
+        "isbn": "9780898651652"
+    },
+    {
+        "title": "The Demolished Man",
+        "author": "Alfred Bester",
+        "published_date": "1953",
+        "isbn": "9781596879881"
+    }
+]
