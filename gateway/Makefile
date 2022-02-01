@@ -1,7 +1,8 @@
 include .env
 
 deploy:
-	gcloud builds submit
+	echo "Running Google Cloud Build"
+	@gcloud builds submit --substitutions=_APOLLO_KEY=${APOLLO_KEY},_APOLLO_GRAPH_REF=${APOLLO_GRAPH_REF}
 
 build-docker:
 	docker build . -f Dockerfile -t gateway

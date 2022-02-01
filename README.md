@@ -40,3 +40,21 @@ Use this template to quickly build and deploy a Federated demo environment.
 ### How to deploy
 
 `make deploy`
+
+
+## Files & Directories
+
+ * _.github/_ - configuration for GitHub Actions (CI/CD)
+ * _client/_ - a simple client app to send GQL queries to your demo
+ * _gateway/_ - the Apollo Gateway for this demo
+ * _subgraph1/_ - a subgraph for this demo
+ * _subgraph2/_ - a subgraph for this demo
+ * _subgraph3/_ - a subgraph for this demo
+ * _.gitignore_ - files that git should not manage
+ * _local-test-unmanaged.yaml_ - a config file for Docker Compose to run an unmanaged Federation demo
+ * _local-test.yaml_ - a config file for Docker Compose to run an managed Federation demo
+ * _Makefile_ - a collection of command shortcuts
+ * _package.json_ - package requirements for a NodeJS project
+ * _server.js_ - the Apollo Server (subgraph) code
+ * _database.json_ - the static "database" data for this service
+ * _schema.graphql_ - the GraphQL schema (subgraph) for this service
