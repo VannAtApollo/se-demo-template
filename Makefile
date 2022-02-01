@@ -1,5 +1,5 @@
 install-deps:
-	#cd client && pip install -r requirements.txt
+	cd client && pip3 install -r requirements.txt || echo "!!! Unable to install Python libaries. !!!"
 	cd gateway && cp dot_env .env && npm install
 	cd subgraph1 && cp dot_env .env && npm install
 	cd subgraph2 && cp dot_env .env && npm install
