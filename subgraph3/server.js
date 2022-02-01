@@ -27,7 +27,7 @@ function fetchAwardsForAuthor(author) {
 // schema. This resolver retrieves books from the "books" array above.
 const resolvers = {
     Query: {
-      books: () => books,
+      awards: () => database,
     },
     Author: {
       awards(author) {
