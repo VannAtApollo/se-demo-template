@@ -4,7 +4,7 @@ Use this template to quickly build and deploy a Federated demo environment.
 
 ## Prereqs
 
- 1. Fork this repository.
+ 1. Check out this repository (forking is disabled, sorry)
  2. Install Docker for Mac
  3. Install Homebrew & Python 3: https://docs.python-guide.org/starting/install3/osx/
  4. Install NVM for Mac: https://tecadmin.net/install-nvm-macos-with-homebrew/ 
