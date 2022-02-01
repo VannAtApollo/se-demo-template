@@ -8,7 +8,7 @@ Use this template to quickly build and deploy a Federated demo environment.
  2. Install Homebrew & Python 3: https://docs.python-guide.org/starting/install3/osx/
  3. Install NVM for Mac: https://tecadmin.net/install-nvm-macos-with-homebrew/ 
  4. Install NodeJS v16.13.1 using NVM: `nvm install v16.13.1`
- 5. Use NodeJS v16.13.1: nvm use v16.13.1 
+ 5. Use NodeJS v16.13.1: `nvm use v16.13.1`
  6. Install the Apollo CLI: https://www.apollographql.com/docs/devtools/cli/
  7. Install the Rover CLI: https://www.apollographql.com/docs/rover/
  8. Log into Studio and create a Deployed Graph, get an API Key and note your Graph ID and Variant ID
@@ -54,7 +54,3 @@ Use this template to quickly build and deploy a Federated demo environment.
  * _local-test-unmanaged.yaml_ - a config file for Docker Compose to run an unmanaged Federation demo
  * _local-test.yaml_ - a config file for Docker Compose to run an managed Federation demo
  * _Makefile_ - a collection of command shortcuts
- * _package.json_ - package requirements for a NodeJS project
- * _server.js_ - the Apollo Server (subgraph) code
- * _database.json_ - the static "database" data for this service
- * _schema.graphql_ - the GraphQL schema (subgraph) for this service
