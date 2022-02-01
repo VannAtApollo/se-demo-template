@@ -21,3 +21,9 @@ run-local-managed:
 	docker build -f subgraph2/Dockerfile subgraph2 -t subgraph2
 	docker build -f subgraph3/Dockerfile subgraph3 -t subgraph3
 	docker-compose --env-file ./gateway/.env -f local-test.yaml up 
+
+deploy:
+	cd gateway && make deploy
+	cd subgraph1 && make deploy
+	cd subgraph2 && make deploy
+	cd subgraph3 && make deploy

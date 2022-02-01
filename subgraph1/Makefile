@@ -1,5 +1,8 @@
 include .env
 
+deploy:
+	gcloud builds submit
+
 publish:
 	rover subgraph publish ${APOLLO_GRAPH_REF} --schema ./schema.graphql \
 		--name ${SUBGRAPH_NAME} --routing-url ${ROUTING_URL}
