@@ -1,9 +1,9 @@
 install-deps:
 	cd client && pip3 install -r requirements.txt || echo "!!! Unable to install Python libaries. !!!"
-	cd gateway && cp dot_env .env && npm install
-	cd subgraph1 && cp dot_env .env && npm install
-	cd subgraph2 && cp dot_env .env && npm install
-	cd subgraph3 && cp dot_env .env && npm install
+	cd gateway && npm install && cp -n dot_env .env || cp -n cloudbuild.yaml.tmpl cloudbuild.yaml || true
+	cd subgraph1 && npm install && cp -n dot_env .env || cp -n cloudbuild.yaml.tmpl cloudbuild.yaml || true
+	cd subgraph2 && npm install && cp -n dot_env .env || cp -n cloudbuild.yaml.tmpl cloudbuild.yaml || true
+	cd subgraph3 && npm install && cp -n dot_env .env || cp -n cloudbuild.yaml.tmpl cloudbuild.yaml || true
 
 supergraph:
 	rover supergraph compose --config supergraph.yaml > gateway/supergraph.graphql
@@ -32,3 +32,4 @@ publish:
 	cd subgraph1 && make publish
 	cd subgraph2 && make publish
 	cd subgraph3 && make publish
+

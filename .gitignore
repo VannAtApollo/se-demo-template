@@ -3,3 +3,4 @@
 .vscode
 */.env
 gateway/supergraph.graphql
+*/cloudbuild.yaml

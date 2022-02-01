@@ -13,7 +13,7 @@ Use this template to quickly build and deploy a Federated demo environment.
  7. Install the Apollo CLI: https://www.apollographql.com/docs/devtools/cli/
  8. Install the Rover CLI: https://www.apollographql.com/docs/rover/
  9. Log into Studio and create a Deployed Graph, get an API Key and note your Graph ID and Variant ID
- 10. Run `make install-deps` to install npm packages for each subgraph and to rename dot_env to .env (this will overwrite current .env files)
+ 10. Run `make install-deps` to install npm packages for each subgraph and to rename dot_env to .env and cloudbuild.yaml.tmpl to cloudbuild.yaml (this will NOT overwrite current .env files)
  11. Edit the .env file in ./gateway, ./subgraph1, ./subgraph2, ./subgraph3 to fill in the appropriate variables
 
 ## Run it Locally with Unmanaged Federation (Local Composition)
@@ -31,8 +31,8 @@ Use this template to quickly build and deploy a Federated demo environment.
  1. Install the Google Cloud CLI: https://cloud.google.com/sdk/docs/quickstart
  2. Login to the Google Cloud Console and create a new project
     1. Go to https://console.cloud.google.com/
-    2. Click "New Project"
-    3. Name your new project `<your-last-name>-presales-demo`
+    2. Find the __"Sales Engineering"__ folder by searching in the drop down and then click "New Project"
+    3. Name your new project `<your-last-name>-demo`
     4. In your new project click on the menu and select "Cloud Run" from the list.
     5. Click "Enable Cloud Run API"
  3. Authenticate with Google Cloud using your Apollo email: `gcloud init`

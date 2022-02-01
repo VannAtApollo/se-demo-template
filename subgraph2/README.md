@@ -33,7 +33,7 @@ make publish
 
  * _.env/dot_env_ - stores environmental variables that are used for deployment
  * _.gcloudignore_ - makes Google Cloud ignore certain files
- * _cloudbuild.yaml_ - the configuration file for Google Cloud Build which will build and deploy Docker containers and services in GCP
+ * _cloudbuild.yaml{.tmpl}_ - the configuration file for Google Cloud Build which will build and deploy Docker containers and services in GCP
  * _Dockerfile_ - the file used to build a Docker container locally or in Cloud Build
  * _Makefile_ - a collection of command shortcuts
  * _package.json_ - package requirements for a NodeJS project
