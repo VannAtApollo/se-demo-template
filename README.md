@@ -47,6 +47,12 @@ Use this template to quickly build and deploy a Federated demo environment.
 
  Steps 2, 3, and 5 should only need to be done the first time.  After that you can just use `make deploy` and `make publish`
 
+## Generate Traffic
+
+ 1. Update the `client/client.py` file to have the right URL for your gateway (if you change your schema you will need to update the queries in this file).
+ 2. Update the `.github/workflows/client_gen.yaml` file to have the correct cron string.
+ 3. Commit and deploy your code to your forked repo and GitHub Actions will start generating traffic for your site.
+
 
 ## Files & Directories
 
