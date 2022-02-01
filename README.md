@@ -13,7 +13,7 @@ Use this template to quickly build and deploy a Federated demo environment.
  7. Install the Rover CLI: https://www.apollographql.com/docs/rover/
  8. Log into Studio and create a Deployed Graph, get an API Key and note your Graph ID and Variant ID
  9. Run `make install-deps` to install npm packages for each subgraph and to rename dot_env to .env (this will overwrite current .env files)
- 10. Edit the .env file in ./gateway, ./subgraph1, ./subgraph2, ./subgraph3 to full in the appropriate variables
+ 10. Edit the .env file in ./gateway, ./subgraph1, ./subgraph2, ./subgraph3 to fill in the appropriate variables
 
 ## Run it Locally with Unmanaged Federation (Local Composition)
 
@@ -64,8 +64,9 @@ Use this template to quickly build and deploy a Federated demo environment.
  * _subgraph3/_ - a subgraph for this demo
  * _.gitignore_ - files that git should not manage
  * _local-test-unmanaged.yaml_ - a config file for Docker Compose to run an unmanaged Federation demo
- * _local-test.yaml_ - a config file for Docker Compose to run an managed Federation demo
+ * _local-test.yaml_ - a config file for Docker Compose to run a managed Federation demo
  * _Makefile_ - a collection of command shortcuts
+ * _supergraph.yaml_ - the config file that Rover uses to create a supergraph offline (ie, without Studio)
 
 ## Make it your own
 
