@@ -31,11 +31,13 @@ Use this template to quickly build and deploy a Federated demo environment.
  1. Install the Google Cloud CLI: https://cloud.google.com/sdk/docs/quickstart
  2. Login to the Google Cloud Console and create a new project
     1. Go to https://console.cloud.google.com/
-    2. Find the __"Sales Engineering"__ folder by searching in the drop down and then click "New Project"
+    2. Find the __"Sales Engineering"__ folder by searching in the drop down and then click "New Project" the "Location" needs to be "Sales Engineering"
     3. Name your new project `<your-last-name>-demo`
     4. In your new project click on the menu and select "Cloud Run" from the list.
     5. Click "Enable Cloud Run API"
- 3. Authenticate with Google Cloud using your Apollo email: `gcloud init`
+    6. In your new project click on the menu and select "Cloud Build" from the list.
+    7. Under the "Settings" area enable the "Cloud Run Admin" Role.
+ 3. Authenticate with Google Cloud from a terminal on your Mac using your Apollo email: `gcloud init`
  4. In the folder ./gateway, ./subgraph1, ./subgraph2, and ./subgraph3 folders edit the `cloudbuild.yaml` file to use your correct project name (replace the <CHANGE_ME> in each of those).
 
 ### How to deploy
