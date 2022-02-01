@@ -1,5 +1,4 @@
 install-deps:
-	cp dot_env .env
 	#cd client && pip install -r requirements.txt
 	cd gateway && cp dot_env .env && npm install
 	cd subgraph1 && cp dot_env .env && npm install
