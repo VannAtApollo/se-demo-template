@@ -15,17 +15,17 @@ node server.js
 ## Deploy to GCP
 
 ```
-gcloud builds submit
+make deploy
 ```
 
 ## Files
 
- * .env/dot_env - stores environmental variables that are used for deployment
- * .gcloudignore - makes Google Cloud ignore certain files
- * cloudbuild.yaml - the configuration file for Google Cloud Build which will build and deploy Docker containers and services in GCP
- * Dockerfile - the file used to build a Docker container locally or in Cloud Build
- * Dockerfile.unmanaged - an unmanaged Federation gateway container
- * Makefile - a collection of command shortcuts
- * package.json - package requirements for a NodeJS project
- * server-unmanaged.js - the Apollo Gateway using unmanaged Federation
- * server.js - the Apollo Gateway code
+ * _.env/dot_env_ - stores environmental variables that are used for deployment
+ * _.gcloudignore_ - makes Google Cloud ignore certain files
+ * _cloudbuild.yaml_ - the configuration file for Google Cloud Build which will build and deploy Docker containers and services in GCP
+ * _Dockerfile_ - the file used to build a Docker container locally or in Cloud Build
+ * _Dockerfile.unmanaged_ - an unmanaged Federation gateway container
+ * _Makefile_ - a collection of command shortcuts
+ * _package.json_ - package requirements for a NodeJS project
+ * _server-unmanaged.js_ - the Apollo Gateway using unmanaged Federation
+ * _server.js_ - the Apollo Gateway code

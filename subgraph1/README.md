@@ -31,12 +31,12 @@ make publish
 
 ## Files
 
- * .env/dot_env - stores environmental variables that are used for deployment
- * .gcloudignore - makes Google Cloud ignore certain files
- * cloudbuild.yaml - the configuration file for Google Cloud Build which will build and deploy Docker containers and services in GCP
- * Dockerfile - the file used to build a Docker container locally or in Cloud Build
- * Makefile - a collection of command shortcuts
- * package.json - package requirements for a NodeJS project
- * server.js - the Apollo Server (subgraph) code
- * database.json - the static "database" data for this service
- * schema.graphql - the GraphQL schema (subgraph) for this service
+ * _.env/dot_env_ - stores environmental variables that are used for deployment
+ * _.gcloudignore_ - makes Google Cloud ignore certain files
+ * _cloudbuild.yaml_ - the configuration file for Google Cloud Build which will build and deploy Docker containers and services in GCP
+ * _Dockerfile_ - the file used to build a Docker container locally or in Cloud Build
+ * _Makefile_ - a collection of command shortcuts
+ * _package.json_ - package requirements for a NodeJS project
+ * _server.js_ - the Apollo Server (subgraph) code
+ * _database.json_ - the static "database" data for this service
+ * _schema.graphql_ - the GraphQL schema (subgraph) for this service
