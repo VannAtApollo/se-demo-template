@@ -37,7 +37,7 @@ Use this template to quickly build and deploy a Federated demo environment.
     5. Click "Enable Cloud Run API"
     6. In your new project click on the menu and select "Cloud Build" from the list.
     7. Under the "Settings" area enable the "Cloud Run Admin" Role.
- 3. Authenticate with Google Cloud from a terminal on your Mac using your Apollo email: `gcloud init`
+ 3. Authenticate with Google Cloud from a terminal on your Mac using your Apollo email: `gcloud init` (if you ever need to change your default project name use the command `gcloud config set project <project-name>`)
  4. In the folder ./gateway, ./subgraph1, ./subgraph2, and ./subgraph3 folders edit the `cloudbuild.yaml` file to use your correct project name (replace the <CHANGE_ME> in each of those).
 
 ### How to deploy
