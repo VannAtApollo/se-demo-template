@@ -4,16 +4,17 @@ Use this template to quickly build and deploy a Federated demo environment.
 
 ## Prereqs
 
- 1. Install Docker for Mac
- 2. Install Homebrew & Python 3: https://docs.python-guide.org/starting/install3/osx/
- 3. Install NVM for Mac: https://tecadmin.net/install-nvm-macos-with-homebrew/ 
- 4. Install NodeJS v16.13.1 using NVM: `nvm install v16.13.1`
- 5. Use NodeJS v16.13.1: `nvm use v16.13.1`
- 6. Install the Apollo CLI: https://www.apollographql.com/docs/devtools/cli/
- 7. Install the Rover CLI: https://www.apollographql.com/docs/rover/
- 8. Log into Studio and create a Deployed Graph, get an API Key and note your Graph ID and Variant ID
- 9. Run `make install-deps` to install npm packages for each subgraph and to rename dot_env to .env (this will overwrite current .env files)
- 10. Edit the .env file in ./gateway, ./subgraph1, ./subgraph2, ./subgraph3 to fill in the appropriate variables
+ 1. Fork this repository.
+ 2. Install Docker for Mac
+ 3. Install Homebrew & Python 3: https://docs.python-guide.org/starting/install3/osx/
+ 4. Install NVM for Mac: https://tecadmin.net/install-nvm-macos-with-homebrew/ 
+ 5. Install NodeJS v16.13.1 using NVM: `nvm install v16.13.1`
+ 6. Use NodeJS v16.13.1: `nvm use v16.13.1`
+ 7. Install the Apollo CLI: https://www.apollographql.com/docs/devtools/cli/
+ 8. Install the Rover CLI: https://www.apollographql.com/docs/rover/
+ 9. Log into Studio and create a Deployed Graph, get an API Key and note your Graph ID and Variant ID
+ 10. Run `make install-deps` to install npm packages for each subgraph and to rename dot_env to .env (this will overwrite current .env files)
+ 11. Edit the .env file in ./gateway, ./subgraph1, ./subgraph2, ./subgraph3 to fill in the appropriate variables
 
 ## Run it Locally with Unmanaged Federation (Local Composition)
 
