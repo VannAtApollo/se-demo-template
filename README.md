@@ -39,7 +39,13 @@ Use this template to quickly build and deploy a Federated demo environment.
 
 ### How to deploy
 
-`make deploy`
+ 1. Deploy your gateway and subgraphs with `make deploy`
+ 2. Check the Google Cloud Run Console to see the URLs for each of your services and your gateway.
+ 3. Update the `.env` files in ./subgraph1, ./subgraph2, ./subgraph3 to have the right `ROUTING_URL` that you got from Cloud Run dashboard.
+ 4. Run `make publish` (this will run `make publish` in each of your subgraph directories, you can also run those one by one)
+ 5. Update studio with the right URL for your gateway.
+
+ Steps 2, 3, and 5 should only need to be done the first time.  After that you can just use `make deploy` and `make publish`
 
 
 ## Files & Directories
@@ -54,3 +60,7 @@ Use this template to quickly build and deploy a Federated demo environment.
  * _local-test-unmanaged.yaml_ - a config file for Docker Compose to run an unmanaged Federation demo
  * _local-test.yaml_ - a config file for Docker Compose to run an managed Federation demo
  * _Makefile_ - a collection of command shortcuts
+
+## Make it your own
+
+Change the schemas for each of the subgraphs and update the data in the `database.json` files.  In each `server.js` make sure you have the right resolvers for the queries and/or mutations on your graph. 

@@ -27,3 +27,8 @@ deploy:
 	cd subgraph1 && make deploy
 	cd subgraph2 && make deploy
 	cd subgraph3 && make deploy
+
+publish:
+	cd subgraph1 && make publish
+	cd subgraph2 && make publish
+	cd subgraph3 && make publish
