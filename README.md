@@ -22,7 +22,10 @@ Use this template to quickly build and deploy a Federated demo environment.
 
 ## Run it Locally with Managed Federation
 
-`make run-local-managed`
+ 1. Publish your schemas to Apollo
+    1. Edit the `ROUTING_URL` in each of the subgraph directories:  ./subgraph1, ./subgraph2, ./subgraph3 or run `make setup` again to set them.
+    2. Publish your graph with `make publish`
+ 2. Deploy locally: `make run-local-managed`
 
 ## Deploy everything to GCP
 
