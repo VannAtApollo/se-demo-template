@@ -2,6 +2,10 @@
 
 Use this template to quickly build and deploy a Federated demo environment.
 
+Use the included setup tool (`make setup`) whenever possible as it saves
+your information and can be re-run multiple times to update `.env` files
+and `cloudbuild.yaml` files. 
+
 ## Prereqs
 
  1. Check out this repository (forking is disabled, sorry)
