@@ -1,4 +1,5 @@
-import json, re
+import json, re, sys
+from os.path import exists
 
 DATA_DICT = {
     'APOLLO_KEY':'',
@@ -64,6 +65,10 @@ if __name__ == "__main__":
     print("---------------------------")
     print("Press Control-C to exit.\n")
 
+    if not exists("gateway/.env") or not exists("gateway/cloudbuild.yaml"):
+        print("ERROR: dependencies are missing, run 'make install-deps'.")
+        sys.exit(1)
+
     try:
         data = json.loads(open('.config').read())
         for k, v in data.items():
@@ -100,6 +105,7 @@ if __name__ == "__main__":
     replace_dot('subgraph3/.env')
     replace_dot('gateway/.env')
 
+    replace_google_yaml('gateway/cloudbuild.yaml')
     replace_google_yaml('subgraph1/cloudbuild.yaml')
     replace_google_yaml('subgraph2/cloudbuild.yaml')
     replace_google_yaml('subgraph3/cloudbuild.yaml')
