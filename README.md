@@ -14,7 +14,7 @@ Use this template to quickly build and deploy a Federated demo environment.
  8. Install the Rover CLI: https://www.apollographql.com/docs/rover/
  9. Log into Studio and create a Deployed Graph, get an API Key and note your Graph ID and Variant ID
  10. Run `make install-deps` to install npm packages for each subgraph and to rename dot_env to .env and cloudbuild.yaml.tmpl to cloudbuild.yaml (this will NOT overwrite current .env files)
- 11. Edit the .env file in ./gateway, ./subgraph1, ./subgraph2, ./subgraph3 to fill in the appropriate variables
+ 11. Edit the .env file in ./gateway, ./subgraph1, ./subgraph2, ./subgraph3 to fill in the appropriate variables __OR__ use the setup tool by typing `make setup`
 
 ## Run it Locally with Unmanaged Federation (Local Composition)
 
@@ -38,13 +38,13 @@ Use this template to quickly build and deploy a Federated demo environment.
     6. In your new project click on the menu and select "Cloud Build" from the list.
     7. Under the "Settings" area enable the "Cloud Run Admin" Role.
  3. Authenticate with Google Cloud from a terminal on your Mac using your Apollo email: `gcloud init` (if you ever need to change your default project name use the command `gcloud config set project <project-name>`)
- 4. In the folder ./gateway, ./subgraph1, ./subgraph2, and ./subgraph3 folders edit the `cloudbuild.yaml` file to use your correct project name (replace the <CHANGE_ME> in each of those).
+ 4. In the folder ./gateway, ./subgraph1, ./subgraph2, and ./subgraph3 folders edit the `cloudbuild.yaml` file to use your correct project name (replace the <CHANGE_ME> in each of those) __OR__ use the setup tool by typing `make setup`
 
 ### How to deploy
 
  1. Deploy your gateway and subgraphs with `make deploy`
  2. Check the Google Cloud Run Console to see the URLs for each of your services and your gateway.
- 3. Update the `.env` files in ./subgraph1, ./subgraph2, ./subgraph3 to have the right `ROUTING_URL` that you got from Cloud Run dashboard.
+ 3. Update the `.env` files in ./subgraph1, ./subgraph2, ./subgraph3 to have the right `ROUTING_URL` that you got from Cloud Run dashboard __OR__ use the setup tool by typing `make setup`
  4. Run `make publish` (this will run `make publish` in each of your subgraph directories, you can also run those one by one)
  5. Update studio with the right URL for your gateway.
 

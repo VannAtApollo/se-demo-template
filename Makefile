@@ -5,6 +5,9 @@ install-deps:
 	cd subgraph2 && npm install && cp -n dot_env .env || cp -n cloudbuild.yaml.tmpl cloudbuild.yaml || true
 	cd subgraph3 && npm install && cp -n dot_env .env || cp -n cloudbuild.yaml.tmpl cloudbuild.yaml || true
 
+setup:
+	python3 setup.py
+
 supergraph:
 	rover supergraph compose --config supergraph.yaml > gateway/supergraph.graphql
 
