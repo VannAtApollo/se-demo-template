@@ -59,7 +59,7 @@ and `cloudbuild.yaml` files.
 
 ## Generate Traffic
 
-### Cloud Schedular Method (recommended)
+### Cloud Scheduler Method (recommended)
 
  1. Enable Cloud Functions by going to that tab in the Google Cloud Console
  2. Go to Cloud Build->Settings and enable the "Cloud Functions" service account
