@@ -1,6 +1,6 @@
 install-deps:
 	cd client && pip3 install -r requirements.txt || echo "!!! Unable to install Python libaries. !!!"
-	cd client && cp dot_env .env || true
+	cd client && cp dot_env .env || cp cloudbuild.yaml.tmpl cloudbuild.yaml || true
 	cd gateway && npm install && cp dot_env .env || cp cloudbuild.yaml.tmpl cloudbuild.yaml || true
 	cd subgraph1 && npm install && cp dot_env .env || cp cloudbuild.yaml.tmpl cloudbuild.yaml || true
 	cd subgraph2 && npm install && cp dot_env .env || cp cloudbuild.yaml.tmpl cloudbuild.yaml || true

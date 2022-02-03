@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - traffic_generator
+  - --region=us-east1
+  - --source=.
+  - --trigger-topic=traffic_gen
+  - --runtime=python39
