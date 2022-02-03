@@ -14,3 +14,14 @@ This simple app is written in Python and will make GQL queries to your Graph.
  ```
  python3 client.py
  ```
+
+## Deploy to Cloud Functions
+
+This will start sending traffic to your deployed graph.  Make sure you edit client.py first to set the URL
+of your gateway.
+
+`make deploy`
+
+## Setup Cloud Functions - One Time Only
+
+`make setup-traffic-gen`

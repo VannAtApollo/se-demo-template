@@ -38,3 +38,5 @@ publish:
 	cd subgraph2 && make publish
 	cd subgraph3 && make publish
 
+traffic-gen:
+	cd client && make setup-traffic-gen && make deploy

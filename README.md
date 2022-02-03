@@ -59,6 +59,16 @@ and `cloudbuild.yaml` files.
 
 ## Generate Traffic
 
+### Cloud Schedular Method (recommended)
+
+ 1. Enable Cloud Functions by going to that tab in the Google Cloud Console
+ 2. Go to Cloud Build->Settings and enable the "Cloud Functions" service account
+ 3. Edit the client/client.py file to put in the URL of your gateway (must be deployed, not local)
+ 4. Run `make traffic-gen` it may ask you to enable some things like AppEngine, say (y)es
+ 5. If you need to re-deploy your client for any reason go into the `client` directory and run `make deploy`
+
+### CI/CD Method
+
  1. Update the `client/client.py` file to have the right URL for your gateway (if you change your schema you will need to update the queries in this file).
  2. Update the `.github/workflows/client_gen.yaml` file to have the correct cron string.
  3. Commit and deploy your code to your forked repo and GitHub Actions will start generating traffic for your site.

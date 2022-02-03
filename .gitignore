@@ -5,3 +5,4 @@
 gateway/supergraph.graphql
 */cloudbuild.yaml
 .config
+__pycache__
