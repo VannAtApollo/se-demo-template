@@ -11,9 +11,13 @@ This simple app is written in Python and will make GQL queries to your Graph.
 
  ## Run
 
- ```
- python3 client.py
- ```
+Run with hard-coded gateway URL:
+`python3 client.py`
+
+Run with gateway URL as argument:
+`python 3 client.py <gateway-url>`
+
+You can also specify via the environment variable `GATEWAY_URL`.
 
 ## Deploy to Cloud Functions
 
