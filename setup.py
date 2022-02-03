@@ -104,6 +104,7 @@ if __name__ == "__main__":
     replace_dot('subgraph2/.env')
     replace_dot('subgraph3/.env')
     replace_dot('gateway/.env')
+    replace_dot('client/.env')
 
     replace_google_yaml('gateway/cloudbuild.yaml')
     replace_google_yaml('subgraph1/cloudbuild.yaml')

@@ -31,7 +31,7 @@ queries = [
 gql("query getAwards { awards { awardTitle, awardName, year }}"),
 gql("query getAwardName { awards { awardName }}"),
 gql("query getAwardDetails { awards { awardName, title }}"),
-gql("query getAuthors { authors { names, yearBorn, biography }}"),
+gql("query getAuthors { authors { name, yearBorn, biography }}"),
 gql("query getBooks { books { title, isbn, author, publisher }}"),
 gql("query getAuthorsDetail { authors { name, books { title }, awards { awardName } }}"),
 gql("query getHomePageDetail { authors { name, books { title }, awards { awardName } }, books { title }, awards { awardName, title } }"),
