@@ -17,7 +17,7 @@ and `cloudbuild.yaml` files.
  7. Install the Apollo CLI: https://www.apollographql.com/docs/devtools/cli/
  8. Install the Rover CLI: https://www.apollographql.com/docs/rover/
  9. Log into Studio and create a Deployed Graph, get an API Key and note your Graph ID and Variant ID
- 10. Run `make install-deps` to install npm packages for each subgraph and to rename dot_env to .env and cloudbuild.yaml.tmpl to cloudbuild.yaml (this will NOT overwrite current .env files)
+ 10. Run `make install-deps` to install npm packages for each subgraph and to rename dot_env to .env and cloudbuild.yaml.tmpl to cloudbuild.yaml (this __will__ overwrite current files but `make setup` will restore them)
  11. Edit the .env file in ./gateway, ./subgraph1, ./subgraph2, ./subgraph3 to fill in the appropriate variables __OR__ use the setup tool by typing `make setup`
 
 ## Run it Locally with Unmanaged Federation (Local Composition)
@@ -27,7 +27,7 @@ and `cloudbuild.yaml` files.
 ## Run it Locally with Managed Federation
 
  1. Publish your schemas to Apollo
-    1. Edit the `ROUTING_URL` in each of the subgraph directories `.env` file:  ./subgraph1, ./subgraph2, ./subgraph3 __OR__ run `make setup` again to set them.
+    1. Edit the `ROUTING_URL` in each of the subgraph directories `.env` file:  ./subgraph1, ./subgraph2, ./subgraph3 __OR__ run `make setup` again to set them (recommended).
     2. Publish your graph with `make publish`
  2. Deploy locally: `make run-local-managed`
 
@@ -44,8 +44,8 @@ and `cloudbuild.yaml` files.
     5. Click "Enable Cloud Run API"
     6. In your new project click on the menu and select "Cloud Build" from the list.
     7. Under the "Settings" area enable the "Cloud Run Admin" Role.
- 3. Authenticate with Google Cloud from a terminal on your Mac using your Apollo email: `gcloud init` (if you ever need to change your default project name use the command `gcloud config set project <project-name>`)
- 4. In the folder ./gateway, ./subgraph1, ./subgraph2, and ./subgraph3 folders edit the `cloudbuild.yaml` file to use your correct project name (replace the <CHANGE_ME> in each of those) __OR__ use the setup tool by typing `make setup`
+ 3. Authenticate with Google Cloud from a terminal on your Mac using your Apollo email: `gcloud init` (if you ever need to change your default Project ID (this might be different from the project name so always use the ID) use the command `gcloud config set project <project-ID>`)
+ 4. In the folder ./gateway, ./subgraph1, ./subgraph2, and ./subgraph3 folders edit the `cloudbuild.yaml` file to use your correct project ID (replace the <CHANGE_ME> in each of those) __OR__ use the setup tool by typing `make setup` (recommended)
 
 ### How to deploy
 

@@ -18,7 +18,7 @@ DATA_DICT = {
 }
 
 DOT_RE = re.compile('(.+)=(.*)' )
-GOOGLE_RE = re.compile('(<CHANGE_ME>-demo)')
+GOOGLE_RE = re.compile('(<CHANGE_ME>)')
 
 # prompt should not include trailing ":"
 def ask_input(prompt, default):
