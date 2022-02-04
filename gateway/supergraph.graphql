@@ -1,0 +1,137 @@
+schema
+  @core(feature: "https://specs.apollo.dev/core/v0.2"),
+  @core(feature: "https://specs.apollo.dev/join/v0.1", for: EXECUTION),
+  @core(feature: "https://specs.apollo.dev/tag/v0.1")
+{
+  query: Query
+  mutation: Mutation
+}
+
+directive @core(as: String, feature: String!, for: core__Purpose) repeatable on SCHEMA
+
+directive @join__field(graph: join__Graph, provides: join__FieldSet, requires: join__FieldSet) on FIELD_DEFINITION
+
+directive @join__graph(name: String!, url: String!) on ENUM_VALUE
+
+directive @join__owner(graph: join__Graph!) on INTERFACE | OBJECT
+
+directive @join__type(graph: join__Graph!, key: join__FieldSet) repeatable on INTERFACE | OBJECT
+
+directive @tag(name: String!) repeatable on FIELD_DEFINITION | INTERFACE | OBJECT | UNION
+
+""" An author of a piece of literature. """
+type Author
+  @join__owner(graph: SUBGRAPH1)
+  @join__type(graph: SUBGRAPH1, key: "id")
+  @join__type(graph: SUBGRAPH1, key: "name")
+  @join__type(graph: SUBGRAPH2, key: "name")
+  @join__type(graph: SUBGRAPH3, key: "name")
+{
+  """ The literary awards won by this author. """
+  awards: [Award] @join__field(graph: SUBGRAPH3)
+
+  """ A short biography of the author. """
+  biography: String @join__field(graph: SUBGRAPH1)
+
+  """ The books by an author. """
+  books: [Book] @join__field(graph: SUBGRAPH2)
+
+  """ The primary key for this author. """
+  id: ID! @join__field(graph: SUBGRAPH1)
+
+  """ The name of the author. """
+  name: String! @join__field(graph: SUBGRAPH1)
+
+  """ Where the author was born, if known. """
+  whereBorn: String @join__field(graph: SUBGRAPH1)
+
+  """ The year the author was born. """
+  yearBorn: Int! @join__field(graph: SUBGRAPH1)
+
+  """ The year the author died (or null if alive)."""
+  yearDied: Int @join__field(graph: SUBGRAPH1)
+}
+
+""" An award for excellence in literature. """
+type Award
+  @join__owner(graph: SUBGRAPH3)
+  @join__type(graph: SUBGRAPH3, key: "awardName year")
+{
+  """ The author who won the award."""
+  authorName: String @join__field(graph: SUBGRAPH3)
+
+  """ The name of the award, i.e. 'Hugo Award'."""
+  awardName: String @join__field(graph: SUBGRAPH3)
+
+  """ The title of the award, i.e. 'Best Novel'."""
+  awardTitle: String @join__field(graph: SUBGRAPH3)
+
+  """ The title of the book that won the award."""
+  bookTitle: String @join__field(graph: SUBGRAPH3)
+  title: String @deprecated(reason: "Use awardTitle for all new clients.") @join__field(graph: SUBGRAPH3)
+
+  """ The year that the award was given. """
+  year: Int @join__field(graph: SUBGRAPH3)
+}
+
+""" A book (work of literature)."""
+type Book
+  @join__owner(graph: SUBGRAPH2)
+  @join__type(graph: SUBGRAPH2, key: "title")
+  @join__type(graph: SUBGRAPH2, key: "author")
+{
+  """ The author of the book. """
+  author: String @join__field(graph: SUBGRAPH2)
+
+  """ The ISBN for a book. """
+  isbn: String @join__field(graph: SUBGRAPH2) @tag(name: "internal")
+
+  """ The publication date. """
+  published_date: String @join__field(graph: SUBGRAPH2) @tag(name: "mobile-api")
+
+  """ Who published the book. """
+  publisher: String @join__field(graph: SUBGRAPH2)
+
+  """ The title of the book. """
+  title: String @join__field(graph: SUBGRAPH2)
+}
+
+type Mutation {
+  """ Create a new author. """
+  addAuthor(biography: String!, name: String!, yearBorn: Int!): Author! @join__field(graph: SUBGRAPH1)
+
+  """ Create a new review for a book. """
+  addReview(bookTitle: String!, rating: Int!, review: String!): Boolean! @join__field(graph: SUBGRAPH2) @tag(name: "internal")
+}
+
+type Query {
+  """ Get a list of authors. In REST this might be: /api/v1/authors?filter=&sort= 
+  """
+  authors(filter: String, sort: String): [Author!]! @join__field(graph: SUBGRAPH1)
+
+  """ Get a list of literary awards."""
+  awards: [Award] @join__field(graph: SUBGRAPH3)
+
+  """ Get a list of books. """
+  books: [Book] @join__field(graph: SUBGRAPH2)
+}
+
+enum core__Purpose {
+  """
+  `EXECUTION` features provide metadata necessary to for operation execution.
+  """
+  EXECUTION
+
+  """
+  `SECURITY` features provide metadata necessary to securely resolve fields.
+  """
+  SECURITY
+}
+
+scalar join__FieldSet
+
+enum join__Graph {
+  SUBGRAPH1 @join__graph(name: "subgraph1" url: "http://subgraph1:3200")
+  SUBGRAPH2 @join__graph(name: "subgraph2" url: "http://subgraph2:3200")
+  SUBGRAPH3 @join__graph(name: "subgraph3" url: "http://subgraph3:3200")
+}
