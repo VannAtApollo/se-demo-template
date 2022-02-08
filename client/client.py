@@ -3,7 +3,7 @@ import random, sys, os
 from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 
-HOST_NAME = "CHANGE_ME_TO_GATEWAY_URL"
+HOST_NAME = "http://localhost:8000"
 
 def run_client():
     client_name = [
