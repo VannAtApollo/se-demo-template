@@ -6,7 +6,7 @@ on:
     # Change me to this when you are ready for traffic: - cron:  '*/5 * * * *'
 jobs:
   Client-Query-Test:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
