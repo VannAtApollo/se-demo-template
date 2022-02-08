@@ -2,7 +2,7 @@ name: Client Traffic Generator
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: '0 0 29 2 1' # Change me
+    - cron: '*/5 * * * *' # Change me
     # Change me to this when you are ready for traffic: - cron:  '*/5 * * * *'
 jobs:
   Client-Query-Test:
