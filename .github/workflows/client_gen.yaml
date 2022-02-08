@@ -20,6 +20,9 @@ jobs:
       - name: Install requirements
         run: |
           python -m pip install -r client/requirements.txt
+      - name: Test the host
+        run: |
+          cat client/client.py
       - name: Run client
         run: |
-          python client/main.py
+          python client/client.py
