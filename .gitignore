@@ -6,3 +6,4 @@ gateway/supergraph.graphql
 */cloudbuild.yaml
 .config
 __pycache__
+client/README copy.md

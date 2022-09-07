@@ -1,22 +1,20 @@
 {
-    "name": "gateway",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "type": "module",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "keywords": [],
-    "author": "Awesome SE",
-    "license": "MIT",
-    "dependencies": {
-        "@apollo/federation": "^0.33.8",
-        "@apollo/gateway": "^0.45.0",
-        "apollo-server": "^3.6.1",
-        "dotenv": "^8.2.0",
-        "graphql": "^15.5.3"
-    }
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Awesome SE",
+  "license": "MIT",
+  "dependencies": {
+      "@apollo/gateway": "latest",
+      "apollo-server": "3.8.0",
+      "dotenv": "^8.2.0",
+      "graphql": "latest"
   }
-  
+}

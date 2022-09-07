@@ -1,18 +1,19 @@
-import random, sys, os
+import random, sys, os, time
 
 from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 
-HOST_NAME = "http://localhost:8000"
+HOST_NAME = "https://gateway-n5erge6ywq-ue.a.run.app"
 
 def run_client():
     client_name = [
         "iOS",
         "web",
         "Android",
+        "cmd line"
     ]
 
-    versions = ['1.0', '1.1', '1.2']
+    versions = ['1.0', '1.1', '1.2', '0.3']
 
     host = HOST_NAME
     if len(sys.argv) > 1:
